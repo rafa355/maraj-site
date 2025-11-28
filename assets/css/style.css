@@ -4844,7 +4844,11 @@ select {
 .slick-slider-x-gap-30 .slick-slide {
   margin: 0 15px;
 }
-
+.text-center-mobile{
+  @media only screen and (max-width: 991px) {
+      text-align: center !important;
+  }
+}
 /*=====  End of Default CSS  ======*/
 /*=============================================
 =            spacing            =
